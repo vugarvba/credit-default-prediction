@@ -64,7 +64,9 @@ The initial classification threshold was chosen **on validation only**, under an
 3. Review model comparison, holdout results, risk-driver plots, bootstrap intervals and cost curves.
 4. Download the generated figures and CSVs from Colab if you want fresh programmatically exported assets.
 
-The repository notebook is a **clean, unexecuted template**. Numerical results and chart images in this repository are transcribed from the author's executed Colab run shared on 20 November 2026. The project package was inspected for code structure and syntax, but the complete external-data pipeline was not independently rerun in the packaging environment. Historical market/data-library revisions can affect later reproductions.
+The repository includes an executed Google Colab notebook with saved model results, evaluation metrics and visualizations. The results were generated using the UCI Default of Credit Card Clients dataset on 20 November 2026.
+
+The notebook can be rerun to reproduce the analysis, although results may vary with changes to dependencies or the source dataset. The complete pipeline has not been independently reproduced in a separate environment.
 
 ## Model governance and limitations
 
